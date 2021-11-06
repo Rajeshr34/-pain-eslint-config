@@ -5,7 +5,7 @@
 ## Installation
 
 ```
-  npm install --save-dev @pain/eslint-config eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-scope typescript
+  npm install --save-dev @pain-org/eslint-config eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-scope typescript
 ```
 
 ### .eslintrc.js
