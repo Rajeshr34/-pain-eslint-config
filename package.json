@@ -1,18 +1,27 @@
 {
     "name": "@pain/eslint-config",
     "version": "1.0.1",
-    "description": "",
+    "description": "@pain global eslint config",
     "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
     "author": "Rajesh",
-    "license": "ISC",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Rajeshr34/pain-eslint-config/issues"
+    },
+    "homepage": "https://github.com/Rajeshr34/pain-eslint-config#readme",
     "lint-staged": {
         "*.{tsx,ts,js,css,md}": [
             "prettier --write"
         ]
     },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Rajeshr34/pain-eslint-config.git"
+    },
+    "keywords": [
+        "eslint",
+        "eslintconfig"
+    ],
     "peerDependencies": {
         "@typescript-eslint/eslint-plugin": ">=5.3.0",
         "@typescript-eslint/parser": ">=5.3.0",
