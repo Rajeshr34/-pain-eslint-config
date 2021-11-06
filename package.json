@@ -1,6 +1,6 @@
 {
     "name": "@pain-org/eslint-config",
-    "version": "1.0.8",
+    "version": "1.0.9",
     "description": "@pain global eslint config",
     "main": "index.js",
     "author": "Rajesh",
