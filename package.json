@@ -1,5 +1,5 @@
 {
-    "name": "@pain/eslint-config",
+    "name": "@pain-org/eslint-config",
     "version": "1.0.3",
     "description": "@pain global eslint config",
     "main": "index.js",
