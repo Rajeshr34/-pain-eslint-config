@@ -5,7 +5,7 @@
 ## Installation
 
 ```
-npm install --save-dev @pain-org/eslint-config eslint prettier @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-scope eslint-config-prettier typescript
+npm install --save-dev @pain-org/eslint-config eslint prettier eslint-plugin-prettier @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-scope eslint-config-prettier typescript
 ```
 
 ### .eslintrc.js
