@@ -1,0 +1,37 @@
+{
+    "name": "@pain/eslint-config",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Rajesh",
+    "license": "ISC",
+    "lint-staged": {
+        "*.{tsx,ts,js,css,md}": [
+            "prettier --write"
+        ]
+    },
+    "peerDependencies": {
+        "@typescript-eslint/eslint-plugin": ">=5.3.0",
+        "@typescript-eslint/parser": ">=5.3.0",
+        "eslint": ">=8.2.0",
+        "eslint-scope": ">=6.0.0",
+        "typescript": ">=4.4.4"
+    },
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^5.3.0",
+        "@typescript-eslint/parser": "^5.3.0",
+        "eslint": "^8.2.0",
+        "eslint-scope": "^6.0.0",
+        "typescript": "^4.4.4"
+    },
+    "dependencies": {
+        "@commitlint/cli": "^14.1.0",
+        "@commitlint/config-conventional": "^14.1.0",
+        "husky": "^7.0.4",
+        "lint-staged": "^11.2.6",
+        "prettier": "^2.4.1"
+    }
+}
