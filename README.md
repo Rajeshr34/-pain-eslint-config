@@ -12,7 +12,7 @@
 
 ```
 module.exports = {
-    extends: "@pain/eslint-config"
+    extends: "@pain-org/eslint-config"
 };
 
 ```
